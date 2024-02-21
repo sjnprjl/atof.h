@@ -21,9 +21,9 @@
  */
 
 /*
- * !NOTE: implementation of atof function as a learning purpose.
- * I haven't tested it and it shouldn't be used for any kind of *serious
- * project*
+ * NOTE: The implementation of the atof function is solely for educational
+ * purposes. It has not been tested and should not be employed in any critical
+ * or substantial projects.
  * */
 
 #ifndef _ATOF_H
@@ -32,10 +32,6 @@
 #include <stdio.h>
 #define IS_DIGIT(c) (c >= '0' && c <= '9')
 #define TO_NUM(c) (c - '0')
-
-#define L_MAX 9223372036854775807
-
-#define L_ABOUT_MAX 9000000000000000000
 
 static double atof(char *);
 
